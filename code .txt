@@ -1,0 +1,166 @@
+Last login: Thu Sep 17 09:36:59 on ttys001
+ts2656@MacBook-Pro-van-Thijn ~ % python3
+Python 3.8.5 (v3.8.5:580fbb018f, Jul 20 2020, 12:11:27) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import turtle
+>>> help(turtle)
+
+>>> turtle.<COMMANDO>()
+  File "<stdin>", line 1
+    turtle.<COMMANDO>()
+           ^
+SyntaxError: invalid syntax
+>>> dir(turtle)
+['Canvas', 'Pen', 'RawPen', 'RawTurtle', 'Screen', 'ScrolledCanvas', 'Shape', 'TK', 'TNavigator', 'TPen', 'Tbuffer', 'Terminator', 'Turtle', 'TurtleGraphicsError', 'TurtleScreen', 'TurtleScreenBase', 'Vec2D', '_CFG', '_LANGUAGE', '_Root', '_Screen', '_TurtleImage', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__forwardmethods', '__func_body', '__loader__', '__methodDict', '__methods', '__name__', '__package__', '__spec__', '__stringBody', '_alias_list', '_make_global_funcs', '_screen_docrevise', '_tg_classes', '_tg_screen_functions', '_tg_turtle_functions', '_tg_utilities', '_turtle_docrevise', '_ver', 'addshape', 'back', 'backward', 'begin_fill', 'begin_poly', 'bgcolor', 'bgpic', 'bk', 'bye', 'circle', 'clear', 'clearscreen', 'clearstamp', 'clearstamps', 'clone', 'color', 'colormode', 'config_dict', 'deepcopy', 'degrees', 'delay', 'distance', 'done', 'dot', 'down', 'end_fill', 'end_poly', 'exitonclick', 'fd', 'fillcolor', 'filling', 'forward', 'get_poly', 'get_shapepoly', 'getcanvas', 'getmethparlist', 'getpen', 'getscreen', 'getshapes', 'getturtle', 'goto', 'heading', 'hideturtle', 'home', 'ht', 'inspect', 'isdown', 'isfile', 'isvisible', 'join', 'left', 'listen', 'lt', 'mainloop', 'math', 'mode', 'numinput', 'onclick', 'ondrag', 'onkey', 'onkeypress', 'onkeyrelease', 'onrelease', 'onscreenclick', 'ontimer', 'pd', 'pen', 'pencolor', 'pendown', 'pensize', 'penup', 'pos', 'position', 'pu', 'radians', 'read_docstrings', 'readconfig', 'register_shape', 'reset', 'resetscreen', 'resizemode', 'right', 'rt', 'screensize', 'seth', 'setheading', 'setpos', 'setposition', 'settiltangle', 'setundobuffer', 'setup', 'setworldcoordinates', 'setx', 'sety', 'shape', 'shapesize', 'shapetransform', 'shearfactor', 'showturtle', 'simpledialog', 'speed', 'split', 'st', 'stamp', 'sys', 'textinput', 'tilt', 'tiltangle', 'time', 'title', 'towards', 'tracer', 'turtles', 'turtlesize', 'types', 'undo', 'undobufferentries', 'up', 'update', 'width', 'window_height', 'window_width', 'write', 'write_docstringdict', 'xcor', 'ycor']
+>>> q
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'q' is not defined
+>>> help()
+
+Welcome to Python 3.8's help utility!
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the Internet at https://docs.python.org/3.8/tutorial/.
+
+Enter the name of any module, keyword, or topic to get help on writing
+Python programs and using Python modules.  To quit this help utility and
+return to the interpreter, just type "quit".
+
+To get a list of available modules, keywords, symbols, or topics, type
+"modules", "keywords", "symbols", or "topics".  Each module also comes
+with a one-line summary of what it does; to list the modules whose name
+or summary contain a given string such as "spam", type "modules spam".
+
+help> help(turtle.setup)
+No Python documentation found for 'help(turtle.setup)'.
+Use help() to get the interactive help utility.
+Use help(str) for help on the str class.
+
+help> q
+
+You are now leaving help and returning to the Python interpreter.
+If you want to ask for help on a particular object directly from the
+interpreter, you can type "help(object)".  Executing "help('string')"
+has the same effect as typing a particular string at the help> prompt.
+>>> 
+>>> help()
+
+Welcome to Python 3.8's help utility!
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the Internet at https://docs.python.org/3.8/tutorial/.
+
+Enter the name of any module, keyword, or topic to get help on writing
+Python programs and using Python modules.  To quit this help utility and
+return to the interpreter, just type "quit".
+
+To get a list of available modules, keywords, symbols, or topics, type
+"modules", "keywords", "symbols", or "topics".  Each module also comes
+with a one-line summary of what it does; to list the modules whose name
+or summary contain a given string such as "spam", type "modules spam".
+
+help> setup()
+No Python documentation found for 'setup()'.
+Use help() to get the interactive help utility.
+Use help(str) for help on the str class.
+
+help> q
+
+You are now leaving help and returning to the Python interpreter.
+If you want to ask for help on a particular object directly from the
+interpreter, you can type "help(object)".  Executing "help('string')"
+has the same effect as typing a particular string at the help> prompt.
+>>> q
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'q' is not defined
+>>> turtle.setup(400, 400, 0, 0)
+>>> turtle.forward(100)
+>>> turtle.forward(100)
+>>> turtle.right(90)
+>>> turtle.forward(100)
+>>> turtle.right(90)
+>>> turtle.forward(100)
+>>> turtle.forward(100)
+>>> turtle.right(90)
+>>> turtle.forward(100)
+>>> turtle.reset()
+>>> turtle.forward(100)
+>>> circle(100)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'circle' is not defined
+>>> turtle.reset()
+>>> turtle.forward(100)
+>>> turtle.left(90)
+>>> turtle.forward(100)
+>>> turtle.left(90)
+>>> turtle.forward(100)
+>>> turtle.forward(100)
+>>> turtle.right(90)
+>>> turtle.forward(100)
+>>> turtle.left(90)
+>>> turtle.forward(100)
+>>> turtle.left(90)
+>>> turtle.forward(100)
+>>> turtle.forward(100)
+>>> turtle.left(90)
+>>> turtle.forward(100)
+>>> turtle.forward(100)
+>>> 
+>>> turtle.reset()
+>>> Turtle.color("blue")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Turtle' is not defined
+>>> turtle.color("blue")
+>>> turtle.forward(100)
+>>> turtle.right(45)
+>>> turtle.forward(100)
+>>> turtle.right(45)
+>>> turtle.color("#A2FF33")
+>>> turtle.getscreen()
+<turtle._Screen object at 0x7fb389e61400>
+>>> venster.bgcolor("red")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'venster' is not defined
+>>> bgcolor("yellow")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'bgcolor' is not defined
+>>> turtle.getscreen()
+<turtle._Screen object at 0x7fb389e61400>
+>>> venster.bgcolor("yellow")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'venster' is not defined
+>>> turtle.getscreen().bgcolor("yellow")
+>>> turtle.reset()
+>>> turtle.getscreen().bgcolor("black")
+>>> turtle.pencolor("#FFFFFF")
+>>> turtle.fillcolor("#FF0000")
+>>> turtle.begin_fill()
+>>> turtle.forward(100)
+>>> turtle.right(120)
+>>> turtle.forward(100)
+>>> turtle.right(120)
+>>> turtle.forward(100)
+>>> turtle.end_fill()
+>>> git status
+  File "<stdin>", line 1
+    git status
+        ^
+SyntaxError: invalid syntax
+>>> ls
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ls' is not defined
+>>> git status
+  File "<stdin>", line 1
+    git status
+        ^
+SyntaxError: invalid syntax
+>>> 
