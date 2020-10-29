@@ -1,0 +1,283 @@
+Last login: Tue Oct 20 13:00:47 on ttys006
+ts2656@MacBook-Pro-van-Thijn ~ % pip3 --version
+pip 20.1.1 from /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/pip (python 3.8)
+ts2656@MacBook-Pro-van-Thijn ~ % pip3 --help
+
+Usage:   
+  pip3 <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip's wheel cache.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring
+                              environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be
+                              used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be
+                              used up to 3 times (corresponding to WARNING,
+                              ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --proxy <proxy>             Specify a proxy in the form
+                              [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should
+                              attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists:
+                              (s)witch, (i)gnore, (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host or host:port pair as trusted,
+                              even though it does not have valid or any HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file
+                              containing the private key and the certificate
+                              in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine
+                              whether a new version of pip is available for
+                              download. Implied with --no-index.
+  --no-color                  Suppress colored output
+  --no-python-version-warning
+                              Silence deprecation warnings for upcoming
+                              unsupported Pythons.
+ts2656@MacBook-Pro-van-Thijn ~ % pip3 help search
+
+Usage:   
+  pip3 search [options] <query>
+
+Description:
+  Search for PyPI packages whose name or summary contains <query>.
+
+Search Options:
+  -i, --index <url>           Base URL of Python Package Index (default
+                              https://pypi.org/pypi)
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring
+                              environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be
+                              used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be
+                              used up to 3 times (corresponding to WARNING,
+                              ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --proxy <proxy>             Specify a proxy in the form
+                              [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should
+                              attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists:
+                              (s)witch, (i)gnore, (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host or host:port pair as trusted,
+                              even though it does not have valid or any HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file
+                              containing the private key and the certificate
+                              in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine
+                              whether a new version of pip is available for
+                              download. Implied with --no-index.
+  --no-color                  Suppress colored output
+  --no-python-version-warning
+                              Silence deprecation warnings for upcoming
+                              unsupported Pythons.
+ts2656@MacBook-Pro-van-Thijn ~ % pip3 search Pillow
+Pillow-PIL (0.1dev)                     - Pillow wrapper for PIL compatibility
+pillow-affine (0.1)                     - Affine transformation utilities for
+                                          pillow
+pillow-stackblur (0.1.0)                - The Pillow filter for Stack Blur.
+images2gif-Pillow (0.0.5)               - read and write animated gifs,for
+                                          Pillow
+pillow-tools (1.1.2)                    - A collection of useful tools for
+                                          python pillow and ffmpy
+pillow-lut (1.0)                        - Lookup tables loading, manipulation
+                                          and generation for Pillow library
+Pillow-find-difference (1.2)            - Pillow-find-difference
+pyheif-pillow-opener (0.1.0)            - pyheif-pillow-opener is a simple
+                                          HEIF/HEIC opener for Pillow base on
+                                          pyhief library.
+Pillow (8.0.0)                          - Python Imaging Library (Fork)
+pillow-scripts (5.0.0)                  - Python Imaging Library (Fork)
+                                          Scripts
+pillow-snippet (0.0.4)                  - some useful snippet for image
+Pillow-SIMD (7.0.0.post3)               - Python Imaging Library (Fork)
+large-image-source-pil (1.3.1)          - A Pillow tilesource for large_image
+pudzu-charts (0.9.1)                    - Pillow-based charting tools
+gadrionwrap (0.8)                       - Text wrapper for PIL/Pillow
+wallpaper (0.2.2)                       - Generate wallpapers with Pillow and
+                                          Palettable.
+phothumb (1.4.1)                        - Photo thumbnail library based on
+                                          Pillow
+image2gif (1.0.0)                       - read and write animated gifs,for
+                                          Pillow
+Pillow3f (0.0.7)                        - 3D graphics library using Pillow
+code2image (0.0.3)                      - Create code snippet with pygments
+                                          and pillow
+PillowImage (1.1.6)                     - Pillow wrapper for quick image
+                                          alterations.
+pil-compat (1.0.0)                      - Compatibility modules, bridging PIL
+                                          -> Pillow
+eirx (0.40)                             - Simple image manipulate based on
+                                          Pillow.
+pimpmypillow (0.1.2)                    - Pimp My Pillow will install a fully
+                                          working Pillow distribution, no more
+                                          'decoder * is not supported'
+                                          messages!
+wsq (0.3)                               - NBIS/WSQ lib Python wrapper for
+                                          Pillow
+pillowfight (0.3)                       - Eases the transition from PIL to
+                                          Pillow for projects.
+simpil (1.2.0)                          - Simplifies use is Pillow for adding
+                                          text to images
+Image4Layer (0.43.4)                    - It is implemented by 'pillow' in
+                                          blend mode of CSS3. And more...
+elaphe3 (0.2.0)                         - Generates various barcodes using
+                                          barcode.ps and pillow.
+alurinium-image-processing (0.1.2-dev)  - Useful image processing utils using
+                                          Pillow
+py-img-editor (0.0.2)                   - Image editor using Python, uWSGI,
+                                          and Pillow
+elaphe (0.6.0)                          - Generates various barcodes using
+                                          barcode.ps and PIL/Pillow
+pudzu-pillar (0.9.1)                    - Various imaging utilities, monkey-
+                                          patched onto Pillow
+PyResizer (0.1.2)                       - Tkinter GUI program to resize images
+                                          via pillow
+django-media-pil (1.0.0)                - Simple widget for image
+                                          manipulations by pillow in the
+                                          Django Admin
+django-media-manager-forked (4.1.1)     - Pillow/Python2.7/Media-Management
+                                          with the Django Admin-Interface.
+Willow (1.4)                            - A Python image library that sits on
+                                          top of Pillow, Wand and OpenCV
+piltextbox (0.2.0)                      - Streamlined text writing on images,
+                                          using the Pillow (PIL) library
+pillowcase (2.0.0)                      - Smooths out installation issues due
+                                          to the PIL/Pillow fork.
+segno-pil (1.0.0)                       - PIL/Pillow plugin for the Segno
+                                          (Micro) QR Code generator
+instakit (0.8.10)                       - Image processors for django-imagekit
+                                          - based on Pillow, SciPy, and
+                                          scikit-image
+amazoncaptcha (0.5.0)                   - "Pure Python, lightweight, Pillow-
+                                          based solver for Amazons text
+                                          captcha."
+figurestophoto (1.0.4)                  - EN: This module is needed to quickly
+                                          draw shapes! First, install Pillow!
+                                          RU: &#1069;&#1090;&#1086;&#1090; &#1
+                                          084;&#1086;&#1076;&#1091;&#1083;&#11
+                                          00;
+                                          &#1085;&#1091;&#1078;&#1077;&#1085;,
+                                          &#1095;&#1090;&#1086;&#1073;&#1099; 
+                                          &#1073;&#1099;&#1089;&#1090;&#1088;&
+                                          #1086; &#1088;&#1080;&#1089;&#1086;&
+                                          #1074;&#1072;&#1090;&#1100; &#1092;&
+                                          #1080;&#1075;&#1091;&#1088;&#1099;!
+                                          &#1044;&#1083;&#1103; &#1085;&#1072;
+                                          &#1095;&#1072;&#1083;&#1072; &#1091;
+                                          &#1089;&#1090;&#1072;&#1085;&#1086;&
+                                          #1074;&#1080;&#1090;&#1077; Pillow!
+pyean (1.1.0)                           - Create standard barcodes with
+                                          Python. Only EAN13. (optional Pillow
+                                          support included).
+numpy2gif (1.0)                         - Convert single and multiple numpy
+                                          images to a gif image without PIL or
+                                          pillow
+ocrd-fork-tesserocr (3.0.0rc2)          - A simple, Pillow-friendly, Python
+                                          wrapper around tesseract-ocr API
+                                          using Cython
+python-barcode (0.13.1)                 - Create standard barcodes with
+                                          Python. No external modules needed.
+                                          (optional Pillow support included).
+LDB-Inventory-Barcode (0.14.1)          - Create standard barcodes with
+                                          Python. No external modules needed.
+                                          (optional Pillow support included).
+tesserocr (2.5.1)                       - A simple, Pillow-friendly, Python
+                                          wrapper around tesseract-ocr API
+                                          using Cython
+scitk (0.0.2)                           - python GUI framework like sciwx,
+                                          based on tkinter, pillow(PIL) and
+                                          various of functional libs
+gif2numpy (1.3)                         - Convert single and multiple frame
+                                          gif images to numpy images or to
+                                          OpenCV without PIL or pillow
+pilbox (1.3.4)                          - Pilbox is an image processing
+                                          application server built on the
+                                          Tornado web framework using the
+                                          Pillow Imaging Library
+PILasOPENCV (2.7)                       - Wrapper for Image functions which
+                                          are used and called in the manner of
+                                          the famous PIL/Pillow module but
+                                          work internally with OpenCV.
+yg.thumpy (1.0.1)                       - A Python web server that uses Pillow
+                                          to dynamically scale, crop,
+                                          transform and serve images from S3
+                                          or the local filesystem
+thumpy (0.4.3)                          - A Python web server that uses Pillow
+                                          to dynamically scale, crop,
+                                          transform and serve images from S3
+                                          or the local filesystem
+oneprint (1.0.6)                        - oneprint is a uniform print library.
+                                          It use XML to define print data. Now
+                                          it can convert XML to ESC/POS data
+                                          or Pillow Image object.
+snippet-image (0.1.7)                   - Package for simple creation images
+                                          of snippets for social networks
+                                          using pillow. Pictures for snippets
+                                          can be inserted for sharing pages in
+                                          social networks, for example in tag
+                                          meta:
+Power3D (1.1)                           - Power3D - A python OpenGL game
+                                          engine! BE SURE TO INSTALL THE
+                                          FOLLOWING FIRST: pygame, pyopengl,
+                                          pillow, numpy!       To learn how to
+                                          use Power3D, read the docs at: https
+                                          ://raw.githubusercontent.com/PixelPl
+                                          ugins/iores/master/power3d-doc.md
+ts2656@MacBook-Pro-van-Thijn ~ % pip3 install pillow
+Collecting pillow
+  Downloading Pillow-8.0.0-cp38-cp38-macosx_10_10_x86_64.whl (2.2 MB)
+     |████████████████████████████████| 2.2 MB 2.5 MB/s 
+Installing collected packages: pillow
+Successfully installed pillow-8.0.0
+WARNING: You are using pip version 20.1.1; however, version 20.2.4 is available.
+You should consider upgrading via the '/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8 -m pip install --upgrade pip' command.
+ts2656@MacBook-Pro-van-Thijn ~ % pip3 install --upgrade Pillow
+Requirement already up-to-date: Pillow in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages (8.0.0)
+WARNING: You are using pip version 20.1.1; however, version 20.2.4 is available.
+You should consider upgrading via the '/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8 -m pip install --upgrade pip' command.
+ts2656@MacBook-Pro-van-Thijn ~ % pip3 list
+Package    Version
+---------- ---------
+certifi    2020.6.20
+Pillow     8.0.0
+pip        20.1.1
+setuptools 47.1.0
+WARNING: You are using pip version 20.1.1; however, version 20.2.4 is available.
+You should consider upgrading via the '/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8 -m pip install --upgrade pip' command.
+ts2656@MacBook-Pro-van-Thijn ~ % 
+  [Hersteld 29 okt. 2020 09:11:49]
+Last login: Thu Oct 29 09:11:49 on ttys000
+ts2656@MacBook-Pro-van-Thijn ~ % 
